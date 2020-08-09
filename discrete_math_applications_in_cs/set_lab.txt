@@ -1,0 +1,32 @@
+
+
+INTRODUCTION TO SET THEORY: A LAB
+
+This is a txt document that outlines a lab based on the set data structure.
+
+----------------------------------------------------------------------------------------------------------------------
+
+Students will create a "set" using a list or array data structure and several algorithmic and logical methods.
+
+The definition of a set is: a collection of objects with no repetition.
+
+Students will be able to use this definition and the underlying list or array data structure to 
+	explore class construction and set theory.
+
+Students will create the following methods for the set class: 
+
+	1. self.cardinality(), which returns the cardinality (or number of items) of the set
+	2. self.add(E element), which adds a variable (object, int, etc.) into the set, accounting for duplicates, 
+		and if using a fixed-sized array, the creation of a new underlying data structure.
+			BONUS: ask students to create a method to add multiple elements in a list or other set
+	3. self.union(Set a), which returns the mathematical union of two sets
+	4. self.intersection(Set a), which returns the mathematical intersection of two sets a and b
+	5. self.isDisjoint(Set a), which returns whether the two sets have an intersection or not (True/False)
+	6. self.pop(), removes a (random) element from the set and returns it 
+	7. self.remove(E element), removes a specified element and returns True or False, based on whether the set
+		contained the element or not
+
+	
+All of the methods above are described as class methods. Each method, however, may also be transformed into a 
+	static method for clarity or a different focus of the lab. Teachers may also want to add other methods
+	to the list to fit their teaching needs.
